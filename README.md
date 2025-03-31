@@ -15,7 +15,6 @@
 ## ▪ Backend(server)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-DB3D44?style=flat&logo=sqlalchemy&logoColor=white)
 
 ---
 
