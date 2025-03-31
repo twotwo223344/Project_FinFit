@@ -42,7 +42,7 @@
 ![YouTube API](https://img.shields.io/badge/YouTube_API-FF0000?style=flat&logo=youtube&logoColor=white)
 ![Naver API](https://img.shields.io/badge/Naver_API-03C75A?style=flat)
 ![Gemini API](https://img.shields.io/badge/Google_Generative_AI-4285F4?style=flat&logo=google&logoColor=white)
-
+![gRPC](https://img.shields.io/badge/gRPC-3F4C8C?style=flat&logo=grpc&logoColor=white)
 
 ---
 
