@@ -36,7 +36,6 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-3C5A6F?style=flat&logo=seaborn&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=langchain&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-<br>
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)  
 ![RandomForest](https://img.shields.io/badge/RandomForest-005f73?style=for-the-badge)  
 ![SHAP](https://img.shields.io/badge/SHAP-FFA500?style=for-the-badge)  
