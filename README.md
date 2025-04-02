@@ -36,6 +36,13 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-3C5A6F?style=flat&logo=seaborn&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=langchain&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+<br>
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)  
+![RandomForest](https://img.shields.io/badge/RandomForest-005f73?style=for-the-badge)  
+![SHAP](https://img.shields.io/badge/SHAP-FFA500?style=for-the-badge)  
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)  
+![MediaPipe](https://img.shields.io/badge/MediaPipe-F7931E?style=for-the-badge)  
+
 
 
 ## ▪ API & External Services
@@ -43,7 +50,7 @@
 ![Naver API](https://img.shields.io/badge/Naver_API-03C75A?style=flat)
 ![Gemini API](https://img.shields.io/badge/Google_Generative_AI-4285F4?style=flat&logo=google&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-3F4C8C?style=flat&logo=grpc&logoColor=white)
-
+![Tenacity](https://img.shields.io/badge/Tenacity-4A90E2?style=for-the-badge)
 
 
 ## ▪ Dev Tools
