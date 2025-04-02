@@ -37,11 +37,11 @@
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=langchain&logoColor=white)
 <br>
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)  
-![RandomForest](https://img.shields.io/badge/RandomForest-005f73?style=for-the-badge)  
-![SHAP](https://img.shields.io/badge/SHAP-FFA500?style=for-the-badge)  
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)  
-![MediaPipe](https://img.shields.io/badge/MediaPipe-F7931E?style=for-the-badge)  
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
+![RandomForest](https://img.shields.io/badge/RandomForest-005f73?style=flat)
+![SHAP](https://img.shields.io/badge/SHAP-FFA500?style=flat)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-F7931E?style=flat)
 
 
 
