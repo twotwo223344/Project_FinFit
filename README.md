@@ -124,9 +124,8 @@ FinFit은 건강 검진 데이터와 AI 예측 모델을 활용하여 사용자�
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logo=xgboost&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3C5A6F?style=flat&logo=seaborn&logoColor=white)
-
-<br>
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
+<br>
 ![RandomForest](https://img.shields.io/badge/RandomForest-005f73?style=flat)
 ![SHAP](https://img.shields.io/badge/SHAP-FFA500?style=flat)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
