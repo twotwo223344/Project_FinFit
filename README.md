@@ -1,4 +1,9 @@
 <small>
+  
+# ■ 프로젝트명: FinFit
+
+<img src="https://github.com/Michael-Lee213/Project_FinFit/raw/main/FinFit-Chrome2025-04-0213-57-31-ezgif.com-video-to-gif-converter.gif.gif" width="720"/>
+
 
 # ■ FinFit - 개인 맞춤형 헬스케어 서비스 
 
@@ -144,28 +149,65 @@ FinFit은 건강 검진 데이터와 AI 예측 모델을 활용하여 사용자�
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![venv](https://img.shields.io/badge/venv-3C3C3C?style=flat&logo=python&logoColor=white)
 
-## ■ 데이터 흐름도, 사용자 흐름도 
+
+## ■ 기능 구현 
+
+### 1. 질병 예측 페이지
+- 건강검진 데이터 기반 질병 확률 예측
+- 2D/3D 시각화 + 암 리스크 분석 포함
+<img src="https://github.com/Michael-Lee213/Project_FinFit/raw/main/KakaoTalk_20250402_172703733.gif" width="720"/>
+
+---
+
+### 2. 병원 추천 시스템
+- 지역 기반 병원 자동 매칭
+- 조건 만족 시 내과 병원 5곳 추천
+<img src="https://github.com/Michael-Lee213/Project_FinFit/raw/main/asdfasdfsdfasdfsadfsdf.gif" width="720"/>
+
+---
+
+### 3. 우울증 예측 
+- 건강정보 기반 정신건강 분석
+- PHQ-9 설문과 수면시간, 건강 데이터 기반으로 우울증 단계 예측
+<img src="https://github.com/Michael-Lee213/Project_FinFit/raw/main/KakaoTalk_20250402_182621565_02.gif" width="720"/>
+
+---
+
+### 4. 체형 예측 및 운동 추천
+- 체형 예측 (RandomForest 기반)
+- 운동 목적/난이도별 추천 영상 필터링
+<img src="https://github.com/Michael-Lee213/Project_FinFit/raw/main/KakaoTalk_20250402_182621565_01.gif" width="720"/>
+
+---
+
+### 5. 스쿼트 분석 페이지
+- Mediapipe 기반 실시간 자세 추적
+- 무릎 각도 측정 및 반복 수 카운트
+<img src="https://github.com/Michael-Lee213/Project_FinFit/raw/main/KakaoTalk_20250402_182621565.gif" width="720"/>
+
+## ■ Service Flow Diagram
 
 <img src="사용자흐름도(최종).png" alt="FinFit 사용자 흐름도" width="700">
 
-# ■ Architecture 
+## ■ Architecture
 <pre>
-  
-📂cosmetic_project/<br>
-│──📂cos/<br>
-│   ├── init.py                       # Flask 애플리케이션 초기화<br>
-│   ├── word2vec_model.py             # Word2Vec 모델 학습 및 로드<br>
-│   ├── 📂data/                       # 화장품 성분 데이터 (CSV 등)<br>
-│   ├── 📂ingrements_faiss_index/     # FAISS 벡터 검색 인덱스 저장소<br>
-│   ├── 📂static/                     # CSS, JS 파일 등 정적 파일<br>
-│   ├── 📂templates/                  # HTML 템플릿<br>
-│   ├── 📂views/                      # Flask 라우팅 및 API 처리<br>
-│   │   ├── visualization_views.py     # 시각화 API<br>
-│   │   ├── search_views.py            # 검색 API (FAISS 기반)<br>
-│   │   ├── chatbot_views.py           # 챗봇 API<br>
-│   │   ├── chart_views.py             # 차트 데이터 API<br>
-│   │   ├── main_views.py              # 메인 페이지 API<br>
+📂FINFIT/<br>
+├── 📂models/                   # 학습된 머신러닝 모델 파일 (.pkl)
+├── 📂static/                   # 정적 파일 (CSS, JS, 이미지, CSV 등)
+├── 📂templates/                # HTML 템플릿 (Jinja2)
+├── 📂views/                    # 주요 기능별 Flask 뷰 파일
+│   ├── chatbot_views.py          # ✨ (옵션) Gemini 기반 챗봇 응답 처리
+│   ├── company_views.py          # 소개/회사 관련 페이지
+│   ├── customer_views.py         # 사용자 정보 입력/관리
+│   ├── depression_views.py       # 우울증 예측 기능
+│   ├── disease_views.py          # 질병 예측 기능
+│   ├── exercise_views.py         # 체형 예측 및 운동 추천
+│   ├── hospital_views.py         # 병원 추천 기능
+│   ├── main_views.py             # 메인 페이지, 라우팅 허브
+│   └── squat_views.py            # 실시간 운동 자세 분석 (스쿼트)
+├──📂 __init__.py               # Flask 앱 초기화
 </pre>
+
 
 ## ■ How to Test 
 
