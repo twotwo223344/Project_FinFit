@@ -1,4 +1,4 @@
-<small>
+<small> 
   
 # ■ 프로젝트명: FinFit
 
